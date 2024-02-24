@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+:root{
+    --bc-gray: #757575;
+    --bc-white: #fff;
+    --bc-fafa: #fafafa;
+    --bc-black: #000;
+    --bc-gray-dark: #333333;
+    --bc-light-black: #1a1a1a;
+    --bc-green: #198754;
+    --bc-teal: #20c997;
+    --bc-primary: #80c343;
+    --bc-no-color: rgba(0,0,0,0) ;
+    --font-noto: Noto;
+    --font-noto-light:NotoLight;
+    --font-noto-bold:NotoBold;
+}
+@font-face {
+    font-family: Noto Sans ;
+    src: url(../asset/fonts/NotoSans-Medium.eot),
+    url(../asset/fonts/NotoSans-Medium.ttf),
+    url(../asset/fonts/NotoSans-Medium.otf),
+    url(../asset/fonts/NotoSans-Medium.woff),
+    url(../asset/fonts/NotoSans-Medium.woff2),
+    ;
+}
+@font-face {
+    font-family: NotoBold ;
+    src: url(../asset/fonts/NotoSans-Bold.eot),
+    url(../asset/fonts/NotoSans-Bold.ttf),
+    url(../asset/fonts/NotoSans-Bold.otf),
+    url(../asset/fonts/NotoSans-Bold.woff),
+    url(../asset/fonts/NotoSans-Bold.woff2),
+    ;
+}
+@font-face {
+    font-family: NotoLight ;
+    src: url(../asset/fonts/NotoSans-Light.eot),
+    url(../asset/fonts/NotoSans-Light.ttf),
+    url(../asset/fonts/NotoSans-Light.otf),
+    url(../asset/fonts/NotoSans-Light.woff),
+    url(../asset/fonts/NotoSans-Light.woff2),
+    ;
+}
+body{
+    font-family: var(--font-noto);
+    /* height: 8000px; */
+}
+a{
+    text-decoration: none;
+}
+/* start header */
+.fd{
+    justify-content: space-between !important;
+}
+.rt:hover{
+    background-color: rgba(0,0,0,0.1);
+}
+.si{
+    height: 300px !important;
+    width: 15% !important;
+}
+.size{
+    height: 100%;
+    width: 100%;
+}
+.size-text{
+    width: 100% !important;
+    height: 100% !important;
+}
+.size-text > h5{
+    width: 100% !important;
+    height: 100% !important;
+}
+.whi{
+    width: 100% !important;
+}
+.imgh:hover{
+    transform: scale(110%);
+    transition: all 0.5s;
+    overflow: hidden;
+}
+
+.btt{
+    width: 100%;
+    height: 50px;
+    background-color: var(--bc-fafa);
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s ease-out;
+    cursor: pointer;
+}
+.btt a{
+    color: var(--bc-black);
+    cursor: pointer;
+    font-family: var(--font-noto-bold);
+}
+.btt:hover{
+    background-color: var(--bc-gray);
+}
+footer{
+    background-color: #49444421;
+}
+.down{
+    display: none;
+}
+.top-footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+    width: 100%;
+    font-family: var();
+}
+.top-footer h4{
+    font-family: var(--font-noto-bold);
+    font-size: 1.1em;
+}
+.top-footer ul{
+    margin-top: 20px;
+    padding: 10px;
+}
+.top-footer li{
+    padding: 5px;
+    font-family: var(--font-noto-light);
+    font-size: 1em;
+}
+.top-footer hr{
+    width: 90%;
+    margin: 0 auto;
+    opacity: 0.5;
+}
+.majazi{
+    width: 100%;
+    height: 100px;
+}
+.hashtag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.hashtag i{
+    color: var(--bc-gray-dark);
+    font-size: 3em;
+}
+.contacts{
+    width: 100%;
+    height: 50px;
+}
+.contacts div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.contacts hr{
+    height: 50%;
+    opacity: 0.5;
+}
+.inter{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    margin-top: 10px;
+}
+.intt{
+    height: 100px;
+}
